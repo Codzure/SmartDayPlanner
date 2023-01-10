@@ -11,7 +11,10 @@ import SwiftUI
 struct SmartDayPlannerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                Text("Select an Event")
+                    .foregroundStyle(.secondary)
+            }
         }
     }
 }
