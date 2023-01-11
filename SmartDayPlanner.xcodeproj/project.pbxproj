@@ -11,6 +11,18 @@
 		12D6B632296E0DB10048ABB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D6B631296E0DB10048ABB5 /* ContentView.swift */; };
 		12D6B634296E0DB30048ABB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D6B633296E0DB30048ABB5 /* Assets.xcassets */; };
 		12D6B637296E0DB30048ABB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D6B636296E0DB30048ABB5 /* Preview Assets.xcassets */; };
+		12D6B63E296E0FB70048ABB5 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D6B63D296E0FB70048ABB5 /* Event.swift */; };
+		12F033ED296F2AA100E99C71 /* EventTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F033EC296F2AA100E99C71 /* EventTask.swift */; };
+		12F033EF296F2C3D00E99C71 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F033EE296F2C3D00E99C71 /* EventData.swift */; };
+		12F033F1296F2C8D00E99C71 /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F033F0296F2C8D00E99C71 /* EventList.swift */; };
+		12F033F3296F2D6D00E99C71 /* ColorOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F033F2296F2D6D00E99C71 /* ColorOption.swift */; };
+		12F033F5296F2D9500E99C71 /* EventEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F033F4296F2D9500E99C71 /* EventEditor.swift */; };
+		12F033F7296F2DB900E99C71 /* EventDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F033F6296F2DB900E99C71 /* EventDetail.swift */; };
+		12F033F9296F2DD800E99C71 /* SFSymbolStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F033F8296F2DD800E99C71 /* SFSymbolStyling.swift */; };
+		12F033FE296F2DF900E99C71 /* SymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F033FA296F2DF900E99C71 /* SymbolPicker.swift */; };
+		12F033FF296F2DF900E99C71 /* EventSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F033FB296F2DF900E99C71 /* EventSymbols.swift */; };
+		12F03400296F2DF900E99C71 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F033FC296F2DF900E99C71 /* TaskRow.swift */; };
+		12F03401296F2DF900E99C71 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F033FD296F2DF900E99C71 /* EventRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,18 @@
 		12D6B631296E0DB10048ABB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		12D6B633296E0DB30048ABB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12D6B636296E0DB30048ABB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		12D6B63D296E0FB70048ABB5 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		12F033EC296F2AA100E99C71 /* EventTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTask.swift; sourceTree = "<group>"; };
+		12F033EE296F2C3D00E99C71 /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		12F033F0296F2C8D00E99C71 /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
+		12F033F2296F2D6D00E99C71 /* ColorOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOption.swift; sourceTree = "<group>"; };
+		12F033F4296F2D9500E99C71 /* EventEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditor.swift; sourceTree = "<group>"; };
+		12F033F6296F2DB900E99C71 /* EventDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetail.swift; sourceTree = "<group>"; };
+		12F033F8296F2DD800E99C71 /* SFSymbolStyling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SFSymbolStyling.swift; path = "../../../Downloads/Date Planner.swiftpm/App/SFSymbolStyling.swift"; sourceTree = "<group>"; };
+		12F033FA296F2DF900E99C71 /* SymbolPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SymbolPicker.swift; path = "../../../Downloads/Date Planner.swiftpm/App/SymbolPicker.swift"; sourceTree = "<group>"; };
+		12F033FB296F2DF900E99C71 /* EventSymbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventSymbols.swift; path = "../../../Downloads/Date Planner.swiftpm/App/EventSymbols.swift"; sourceTree = "<group>"; };
+		12F033FC296F2DF900E99C71 /* TaskRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskRow.swift; path = "../../../Downloads/Date Planner.swiftpm/App/TaskRow.swift"; sourceTree = "<group>"; };
+		12F033FD296F2DF900E99C71 /* EventRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventRow.swift; path = "../../../Downloads/Date Planner.swiftpm/App/EventRow.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +76,19 @@
 			isa = PBXGroup;
 			children = (
 				12D6B62F296E0DB10048ABB5 /* SmartDayPlannerApp.swift */,
+				12D6B63D296E0FB70048ABB5 /* Event.swift */,
+				12F033EE296F2C3D00E99C71 /* EventData.swift */,
+				12F033F0296F2C8D00E99C71 /* EventList.swift */,
+				12F033F2296F2D6D00E99C71 /* ColorOption.swift */,
+				12F033EC296F2AA100E99C71 /* EventTask.swift */,
 				12D6B631296E0DB10048ABB5 /* ContentView.swift */,
+				12F033F4296F2D9500E99C71 /* EventEditor.swift */,
+				12F033FD296F2DF900E99C71 /* EventRow.swift */,
+				12F033FB296F2DF900E99C71 /* EventSymbols.swift */,
+				12F033FA296F2DF900E99C71 /* SymbolPicker.swift */,
+				12F033FC296F2DF900E99C71 /* TaskRow.swift */,
+				12F033F8296F2DD800E99C71 /* SFSymbolStyling.swift */,
+				12F033F6296F2DB900E99C71 /* EventDetail.swift */,
 				12D6B633296E0DB30048ABB5 /* Assets.xcassets */,
 				12D6B635296E0DB30048ABB5 /* Preview Content */,
 			);
@@ -137,8 +173,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12F033F1296F2C8D00E99C71 /* EventList.swift in Sources */,
 				12D6B632296E0DB10048ABB5 /* ContentView.swift in Sources */,
+				12F033FE296F2DF900E99C71 /* SymbolPicker.swift in Sources */,
+				12D6B63E296E0FB70048ABB5 /* Event.swift in Sources */,
+				12F033EF296F2C3D00E99C71 /* EventData.swift in Sources */,
+				12F03400296F2DF900E99C71 /* TaskRow.swift in Sources */,
 				12D6B630296E0DB10048ABB5 /* SmartDayPlannerApp.swift in Sources */,
+				12F033F7296F2DB900E99C71 /* EventDetail.swift in Sources */,
+				12F033F5296F2D9500E99C71 /* EventEditor.swift in Sources */,
+				12F033FF296F2DF900E99C71 /* EventSymbols.swift in Sources */,
+				12F033ED296F2AA100E99C71 /* EventTask.swift in Sources */,
+				12F03401296F2DF900E99C71 /* EventRow.swift in Sources */,
+				12F033F3296F2D6D00E99C71 /* ColorOption.swift in Sources */,
+				12F033F9296F2DD800E99C71 /* SFSymbolStyling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
